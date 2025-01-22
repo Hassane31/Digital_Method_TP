@@ -1,2 +1,0 @@
-# lesTpt3gomari.c
- 
