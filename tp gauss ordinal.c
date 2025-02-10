@@ -44,6 +44,8 @@ void procedur(float a[max_taille][max_taille], float b[max_taille], int n){
         {temp = a[i][k];
             a[i][k] = a[i][colonne];
             a[i][colonne] = temp;}}}}
+
+            
     void triangularize(float A[max_taille][max_taille], float B[max_taille], int n)
     { for (int k = 0; k < n - 1; k++)   {
             if (A[k][k] != 0){
